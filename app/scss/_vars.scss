@@ -1,0 +1,64 @@
+$accent: #cc9999;
+$default: rgba(#cea067, 0.2);
+$body: #161326;
+$title: #CEA067;
+
+// %quicksand-400{
+//   font-family: 'Quicksand-Regular', sans-serif;
+//   font-weight: 400;
+// }
+
+// %quicksand-500{
+//   font-family: 'Quicksand-Medium', sans-serif;
+//   font-weight: 500;
+// }
+
+// %roboto-400{
+//   font-family: 'Roboto-Regular', sans-serif;
+//   font-weight: 400;
+// }
+
+// %roboto-700{
+//   font-family: 'Roboto-Bold', sans-serif;
+//   font-weight: 700;
+// }
+
+%montserrat-400{
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+
+%montserrat-700{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+%cormorant-500{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+%cormorant-700{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700;
+}
+
+%btn{
+  color: #fff;
+  background-color: $accent;
+  // filter: blur(0.4px);
+  @extend %montserrat-700;
+  cursor: pointer;
+}
+
+%btn-hover{
+ filter: drop-shadow(5px 5px 2px rgba(222, 160, 9, 0.36));
+ border: 1px solid #640000;
+}
+
+@function max($numbers...) {
+@return m#{a}x(#{$numbers});
+}
+@function min($numbers...) {
+@return m#{i}n(#{$numbers});
+}
